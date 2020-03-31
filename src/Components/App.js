@@ -4,7 +4,7 @@ import youtube from '../api/youtube'
 import VideoList from './VideoList'
 import VideoDetail from './VideoDetail'
 
-const KEY = process.env.KEY
+const KEY = process.env.KEY || `AIzaSyBgVhYXWlhpYjFj2usdyQtY9Nnhi8majRM`
 
 class App extends React.Component {
 
